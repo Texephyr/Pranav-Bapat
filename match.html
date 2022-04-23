@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/styles1.css">
+    <style>
+        #team2{
+            margin-top: 45px;
+        }
+
+        #team2 img{
+            margin-left: 17px;
+        }
+    </style>
+    <title>Previous Match</title>
+</head>
+<body>
+    <div id="logo">
+        <img src="/styles/dcLogo.png" alt="dcLogo">
+        <h2>MATCH CENTRE</h2>
+    </div>
+    <div class="info">
+        <p>RAJASTHAN ROYALS WON BY 15 RUNS</p>
+    </div>
+    <div id="team1" class="scores">
+        <div class="teams">
+        <img class="assc" src="/styles/dcLogo.png" alt="bcci">
+        <h3 class="team">DELHI CAPITALS</h3>
+        <p class="score">207/8</p>
+        <p class="overs">20.0 OV</p>
+    </div>
+    <div id="team2" class="teams">
+        <img class="assc" src="/styles/rrLogo.png" alt="bcci">
+        <h3 class="team">RAJASTHAN ROYALS</h3>
+        <p class="score">222/2</p>
+        <p class="overs">20.0 OV</p>
+    </div>
+    </div>
+    <div class="scorecard">
+        <h2>SCORECARD</h2>
+        <label class="innings">
+            <div class="inning">
+            <input type="radio" name="checkbox1" id="checkbox1" onclick="showScoreCard1()">
+            RAJASTHAN ROYALS
+            </div>
+            <div class="inning">
+                <input type="radio" name="checkbox1" id="checkbox1" onclick="showScoreCard2()">
+                DELHI CAPITALS
+                </div>
+        </label>
+    </div>
+        <div id="table">
+        <table id="score-table">
+        <tr>
+            <th class="heading">BATTERS</th>
+            <th class="heading">RUNS</th>
+            <th class="heading">BALLS</th>
+            <th class="heading">4'S</th>
+            <th class="heading">6'S</th>
+            <th class="heading">WKT</th>
+        </tr>
+        <tr class="rest">
+            <td id="rest">
+                <p class="name" id="name">Jos Butler</p>
+                <p>c David Warner b</p>
+                <p>Mustafizur Rahman</p>
+            </td>
+            <td>
+                116
+            </td>
+            <td>
+                65
+            </td>
+            <td>
+                9
+            </td>
+            <td>
+                9
+            </td>
+            <td>
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/play--v1.png"/>
+            </td>
+        </tr>
+        <tr class="rest">
+            <td>
+                <p class="name">Devdutt Padikkal</p>
+                <p>lbw Khaleel Ahmed</p>
+            </td>
+            <td>
+                54
+            </td>
+            <td>
+                35
+            </td>
+            <td>
+                7
+            </td>
+            <td>
+                2
+            </td>
+            <td>
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/play--v1.png"/>
+            </td>
+        </tr>
+        <tr class="rest">
+            <td>
+                <p class="name">Sanju Samson(c)(wk)</p>
+                <p class="not-out">not out</p>
+            </td>
+            <td>
+                46
+            </td>
+            <td>
+                19
+            </td>
+            <td>
+                5
+            </td>
+            <td>
+                3
+            </td>
+            <td>
+                -
+            </td>
+        </tr>
+        <tr class="rest">
+            <td>
+                <p class="name">Shimron Hetmyer</p>
+                <p class="not-out">not out</p>
+            </td>
+            <td>
+                1
+            </td>
+            <td>
+                1
+            </td>
+            <td>
+                0
+            </td>
+            <td>
+                0
+            </td>
+            <td>
+                -
+            </td>
+        </tr>
+        </table>
+    <div id="extras">
+        <p>Extras</p>
+        <p>(nb 0, w 4, b 0, lb 1, pen 0)  5</p>
+    </div>
+</div>
+<div id="table1">
+    <table id="score-table">
+    <tr>
+        <th class="heading">BATTERS</th>
+        <th class="heading">RUNS</th>
+        <th class="heading">BALLS</th>
+        <th class="heading">4'S</th>
+        <th class="heading">6'S</th>
+        <th class="heading">WKT</th>
+    </tr>
+    <tr class="rest">
+        <td id="rest">
+            <p class="name" id="name">Prithvi Shaw</p>
+            <p>c Trent Boult b</p>
+            <p>Ravichandran Ashwin</p>
+        </td>
+        <td>
+            37
+        </td>
+        <td>
+            27
+        </td>
+        <td>
+            5
+        </td>
+        <td>
+            1
+        </td>
+        <td>
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/play--v1.png"/>
+        </td>
+    </tr>
+    <tr class="rest">
+        <td>
+            <p class="name">David Warner</p>
+            <p>c Sanju Samson b</p>
+            <p>Prasidh Krishna</p>
+        </td>
+        <td>
+            28
+        </td>
+        <td>
+            14
+        </td>
+        <td>
+            5
+        </td>
+        <td>
+            1
+        </td>
+        <td>
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/play--v1.png"/>
+        </td>
+    </tr>
+    <tr class="rest">
+        <td>
+            <p class="name">Sarfaraz Khan</p>
+            <p>b Prasidh Krishna b</p>
+            <p>Ravichandran Ashwin</p>
+        </td>
+        <td>
+            1
+        </td>
+        <td>
+            3
+        </td>
+        <td>
+            0
+        </td>
+        <td>
+            0
+        </td>
+        <td>
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/play--v1.png"/>
+        </td>
+    </tr>
+    <tr class="rest">
+        <td>
+            <p class="name">Rishabh Pant(c)(wk)</p>
+            <p>c Devdutt Padikkal b</p>
+            <p>Prasidh Krishna</p>
+        </td>
+        <td>
+            44
+        </td>
+        <td>
+            24
+        </td>
+        <td>
+            4
+        </td>
+        <td>
+            2
+        </td>
+        <td>
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/play--v1.png"/>
+        </td>
+    </tr>
+    <tr class="rest">
+        <td>
+            <p class="name">Lalit Yadav</p>
+            <p>c Sanju Samson b</p>
+            <p>Prasid Krishna</p>
+        </td>
+        <td>
+            37
+        </td>
+        <td>
+            24
+        </td>
+        <td>
+            3
+        </td>
+        <td>
+            2
+        </td>
+        <td>
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/play--v1.png"/>
+        </td>
+    </tr>
+    <tr class="rest">
+        <td>
+            <p class="name">Axar Patel</p>
+            <p>b Yuzvendra Chahal</p>
+        </td>
+        <td>
+            1
+        </td>
+        <td>
+            4
+        </td>
+        <td>
+            0
+        </td>
+        <td>
+            0
+        </td>
+        <td>
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/play--v1.png"/>
+        </td>
+    </tr>
+    <tr class="rest">
+        <td>
+            <p class="name">Shardul Thakur</p>
+            <p>run out(Riyan Parag)</p>
+        </td>
+        <td>
+            10
+        </td>
+        <td>
+            7
+        </td>
+        <td>
+            0
+        </td>
+        <td>
+            1
+        </td>
+        <td>
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/play--v1.png"/>
+        </td>
+    </tr>
+    <tr class="rest">
+        <td>
+            <p class="name">Rovman Powell</p>
+            <p>c Sanju Samson b</p>
+            <p>Obed McCoy</p>
+        </td>
+        <td>
+            36
+        </td>
+        <td>
+            15
+        </td>
+        <td>
+            0
+        </td>
+        <td>
+            5
+        </td>
+        <td>
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/play--v1.png"/>
+        </td>
+    </tr>
+    <tr class="rest">
+        <td>
+            <p class="name">Kuldeep Yadav</p>
+            <p class="not-out">not out</p>
+        </td>
+        <td>
+            0
+        </td>
+        <td>
+            3
+        </td>
+        <td>
+            0
+        </td>
+        <td>
+            0
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    </table>
+<div id="extras">
+    <p>Extras</p>
+    <p>(nb 1, w 8, b 4, lb 0, pen 0)  13</p>
+</div>
+</div>
+    <script>
+        let table = document.getElementById('table');
+        let table1 = document.getElementById('table1');
+        let table2 = document.getElementById('table2');
+        table1.style.display = 'none';
+        table2.style.display = 'none';
+        function showScoreCard1() {
+            table.style.display = 'block';
+            table1.style.display = 'none';
+            table2.style.display = 'none';
+        }
+
+        function showScoreCard2() {
+            table1.style.display = 'block';
+            table.style.display = 'none';
+            table2.style.display = 'none';
+        }
+
+        function showScoreCard3() {
+            table2.style.display = 'block';
+            table.style.display = 'none';
+            table1.style.display = 'none';
+        }
+    </script>
+</body>
+</html>

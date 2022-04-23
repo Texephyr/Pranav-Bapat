@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+.match-centre {
+    background-color: rgb(70, 69, 69);
+    padding: 20px;
+}
+
+.match-centre h2 {
+    text-align: center;
+    border: 1px solid rgb(255, 115, 0);
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 200px;
+    padding: 40px;
+    padding: 7px;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    font-weight: bold;
+}
+
+.info {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.info h2 {
+    color: white;
+}
+
+.info #year {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #fff;
+    font-weight: 600;
+}
+
+.scores {
+    display: flex;
+}
+
+.teams {
+    margin: 108px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.assc {
+    max-width: 130px;
+}
+
+#team1, #team2 {
+    padding-left: 273px;
+}
+
+.team, .score, .overs {
+    text-align: center;
+    color: white;
+}
+
+.score {
+    font-weight: bold;
+}
+
+#team1 hr, #team2 hr {
+    margin-bottom: 8px;
+}
+
+.scorecard h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 72, 0);
+    text-decoration-thickness: 5px;
+}
+
+#score-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    /* width: 55%; */
+    border-collapse: collapse;
+}
+
+#score-table .heading {
+    padding: 20px;
+    background-color: rgb(8, 8, 139);
+    color: white;
+}
+
+#score-table td {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#score-table .rest:nth-child(even) {
+    background-color: #fff;
+}
+
+#score-table .rest:nth-child(odd) {
+    background-color: #beb8b8;
+}
+
+#score-table td p {
+    color: rgb(2, 2, 41);
+}
+
+#score-table td .name {
+    font-weight: 600;
+}
+
+#score-table td img {
+    cursor: pointer;
+}
+
+#score-table td .not-out {
+    color: rgb(240, 52, 6);
+    font-weight: 600;
+}
+
+#extras p {
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.innings {
+    display: flex;
+    justify-content: center;
+}
+
+.inning {
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#extras{
+    width: 28%;
+    margin: auto;
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+}
